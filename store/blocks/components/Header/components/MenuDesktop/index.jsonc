@@ -1,0 +1,13 @@
+{
+    "vtex.menu@2.x:menu#header-desktop": {
+        "title": "Itens de Menu Desktop",
+        "props": {
+            "blockClass": "header-desktop"
+        },
+        "children": [
+            "menu-item#menu-item-1",
+            "menu-item#menu-item-2",
+            "menu-item#menu-item-3"
+        ]
+    }
+}

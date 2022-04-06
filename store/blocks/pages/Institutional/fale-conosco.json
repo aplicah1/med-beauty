@@ -1,0 +1,155 @@
+{
+    "store.custom#contact-us": {
+        "blocks": [
+            "flex-layout.row#banner-contact-us",
+            "rich-text#title-contact us",
+            "flex-layout.row#contact-us"
+        ]
+    },
+    "flex-layout.row#banner-contact-us": {
+        "props": {
+            "blockClass": "container-banner"
+        },
+        "children": [
+            "image#banner-contact-us"
+        ]
+    },
+    "image#banner-contact-us": {
+        "props": {
+            "src": "https://denon.vtexassets.com/arquivos/banner_.jpg",
+            "blockClass": "banner-primary"
+        }
+    },
+    "rich-text#title-contact us": {
+        "props": {
+            "blockClass": [
+                "title-contact-us"
+            ],
+            "text": "# Fale Conosco"
+        }
+    },
+    "flex-layout.row#contact-us": {
+        "props": {
+            "blockClass": "container-contact-us"
+        },
+        "children": [
+            "flex-layout.col#text-contact-us-col",
+            "flex-layout.col#contact-us-col"
+        ]
+    },
+    "flex-layout.col#contact-us-col": {
+        "props": {
+            "blockClass": "container-contact-us-form"
+        },
+        "children": [
+            "rich-text#title-denon-contact-us-1",
+            "rich-text#text-denon-contact-us-1",
+            "rich-text#title-denon-contact-us-2",
+            "rich-text#text-denon-contact-us-2"
+        ]
+    },
+    "flex-layout.col#text-contact-us-col": {
+        "props": {
+            "blockClass": "container-text-denon",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#title-denon-contact-us-3",
+            "rich-text#text-denon-contact-us-3",
+            "rich-text#title-denon-contact-us-4",
+            "rich-text#text-denon-contact-us-4",
+            "rich-text#title-denon-contact-us-5",
+            "rich-text#text-denon-contact-us-5"
+        ]
+    },
+    "rich-text#title-denon-contact-us-1": {
+        "props": {
+            "text": "## TIME DE SAC E RELACIONAMENTO",
+            "blockClass": [
+                "title-denon",
+                "title-contact"
+            ]
+        }
+    },
+    "rich-text#text-denon-contact-us-1": {
+        "props": {
+            "text": "Nosso time de SAC e RELACIONAMENTO conta com profissionais altamente qualificados e capacitados para esclarecer prontamente suas dúvidas sobre produtos, acesso ao site, finalização de compra e até mesmo sobre a entrega e rota do seu produto.",
+            "blockClass": [
+                "text-denon",
+                "text-contact"
+            ]
+        }
+    },
+    "rich-text#title-denon-contact-us-2": {
+        "props": {
+            "text": "## PRIMEIRO CONTATO",
+            "blockClass": [
+                "title-denon",
+                "title-contact"
+            ]
+        }
+    },
+    "rich-text#text-denon-contact-us-2": {
+        "props": {
+            "text": "Temos diversos canais para facilitar o atendimento. Mas, aconselhamos que o primeiro contato seja feito via e-mail ou telefone, com uma de nossas assistentes.",
+            "blockClass": [
+                "text-denon",
+                "text-contact"
+            ]
+        }
+    },
+    "rich-text#title-denon-contact-us-3": {
+        "props": {
+            "text": "## HORÁRIO DE ATENDIMENTO",
+            "blockClass": [
+                "title-denon",
+                "title-contact"
+            ]
+        }
+    },
+    "rich-text#text-denon-contact-us-3": {
+        "props": {
+            "text": "Segunda à Sexta:\n09h00 às 12h30\n13h30 às 17h00\n(Exceto feriados)",
+            "blockClass": [
+                "text-denon",
+                "text-contact"
+            ]
+        }
+    },
+    "rich-text#title-denon-contact-us-4": {
+        "props": {
+            "text": "## ENTRE EM CONTATO:",
+            "blockClass": [
+                "title-denon",
+                "title-contact"
+            ]
+        }
+    },
+    "rich-text#text-denon-contact-us-4": {
+        "props": {
+            "text": "Telefone: (11) 2985-0481 | (11) 2872-8240 - Email:",
+            "blockClass": [
+                "text-denon",
+                "text-contact"
+            ]
+        }
+    },
+    "rich-text#title-denon-contact-us-5": {
+        "props": {
+            "text": "## Assistência Técnica Oficial:",
+            "blockClass": [
+                "title-denon",
+                "title-contact"
+            ]
+        }
+    },
+    "rich-text#text-denon-contact-us-5": {
+        "props": {
+            "text": "Av. Professor Vicente Rao, 2131 - Brooklin, São Paulo - SP, 04636-003\nHorário de Funcionamento: Segunda a Sexta - 09h00 às 17h30 (Exceto feriados)\nAos sábados – 09h00 ás 12h30",
+            "blockClass": [
+                "text-denon",
+                "text-contact"
+            ]
+        }
+    }
+}

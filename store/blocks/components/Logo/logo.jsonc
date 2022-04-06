@@ -1,0 +1,9 @@
+{
+    "logo#default": {
+        "props": {
+            "title": "Home - Med Beauty",
+            "href": "/",
+            "url": "assets/logos/medbeauty.svg"
+        }
+    }
+}

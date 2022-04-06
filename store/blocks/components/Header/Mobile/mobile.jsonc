@@ -1,0 +1,78 @@
+{
+    "header-layout.mobile": {
+        "children": [
+            "flex-layout.row#container-header-mobile"
+        ]
+    },
+    "flex-layout.row#container-header-mobile": {
+        "children": [
+            "flex-layout.col#container-header-mobile"
+        ],
+        "props": {
+            "blockClass": "container-header"
+        }
+    },
+    "flex-layout.col#container-header-mobile": {
+        "children": [
+            "flex-layout.row#header-ruler-colorful",
+            "flex-layout.row#header-mobile-container-section-1",
+            "flex-layout.col#header-mobile-search-bar-fixed-bottom"
+        ],
+        "props": {
+            "blockClass": "container-header"
+        }
+    },
+    "flex-layout.row#header-mobile-container-section-1": {
+        "children": [
+            "drawer#mobile",
+            "flex-layout.row#header-mobile-logo",
+            "flex-layout.row#header-mobile-login-minicart"
+        ],
+        "props": {
+            "blockClass": "container-header-section-1",
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "drawer#mobile": {
+        "props": {
+            "orientation": "horizontal",
+            "isFullWidth": true,
+            "blockClass": "drawer-menu-mobile"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#header-mobile"
+        ]
+    },
+    "flex-layout.row#header-mobile-logo": {
+        "children": [
+            "logo#default"
+        ],
+        "props": {
+            "blockClass": "container-header-section-1-subsection-1",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#header-mobile-login-minicart": {
+        "children": [
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "container-header-section-1-subsection-3",
+            "colGap": 6,
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#header-mobile-search-bar-fixed-bottom": {
+        "children": [
+            "custom-search-bar"
+        ],
+        "props": {
+            "blockClass": [
+                "search-bar-fixed-bottom"
+            ]
+        }
+    }
+}

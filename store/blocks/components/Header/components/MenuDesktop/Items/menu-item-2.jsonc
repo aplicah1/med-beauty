@@ -1,0 +1,107 @@
+{
+    "menu-item#menu-item-2": {
+        "title": "Item 2 Menu Desktop",
+        "props": {
+            "id": "menu-item-menu-item-2",
+            "blockClass": "menu-item-header-desktop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/e.p.t.q.",
+                "noFollow": false,
+                "tagTitle": "e.p.t.q.",
+                "text": "e.p.t.q."
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#menu-item-2"
+        ]
+    },
+    "vtex.menu@2.x:submenu#menu-item-2": {
+        "title": "SubMenu 2 Menu Desktop",
+        "props": {
+            "blockClass": "header-desktop-submenu"
+        },
+        "children": [
+            "flex-layout.row#container-submenu-header-2"
+        ]
+    },
+    "flex-layout.row#container-submenu-header-2": {
+        "children": [
+            "flex-layout.col#container-submenu-text-2",
+            "wdt-custom-slider-default#submenu-2"
+        ],
+        "props": {
+            "blockClass": [
+                "container-submenu-header"
+            ],
+            "colGap": 7
+        }
+    },
+    "wdt-custom-slider-default#submenu-2": {
+        "title": "Carousel de imagens do Menu 2",
+        "props": {
+            "blockClass": "submenu",
+            "slidesToShow": {
+                "desktop": 3,
+                "mobile": 1
+            },
+            "banners": [
+                {
+                    "image": {
+                        "alt": "#",
+                        "desktop": "assets/images/submenu-1.jpg",
+                        "mobile": "assets/images/submenu-1.jpg"
+                    },
+                    "title": "Lisos"
+                },
+                {
+                    "image": {
+                        "alt": "#",
+                        "desktop": "assets/images/submenu-2.jpg",
+                        "mobile": "assets/images/submenu-2.jpg"
+                    },
+                    "title": "Parafusos"
+                },
+                {
+                    "image": {
+                        "alt": "#",
+                        "desktop": "assets/images/submenu-3.jpg",
+                        "mobile": "assets/images/submenu-3.jpg"
+                    },
+                    "title": "Especulados"
+                }
+            ]
+        }
+    },
+    "flex-layout.col#container-submenu-text-2": {
+        "children": [
+            "rich-text#content-submenu-02",
+            "link#cta-submenu-2"
+        ],
+        "props": {
+            "blockClass": [
+                "container-submenu-text"
+            ],
+            "width": "35%"
+        }
+    },
+    "rich-text#content-submenu-02": {
+        "title": "Texto do SubMenu 2",
+        "props": {
+            "blockClass": [
+                "content-submenu"
+            ],
+            "text": "![nano](assets/logos/eptq.svg) \n\n Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+        }
+    },
+    "link#cta-submenu-2": {
+        "title": "Link do SubMenu 2",
+        "props": {
+            "href": "/#",
+            "blockClass": "cta-submenu",
+            "label": "Ver Todos"
+        }
+    }
+}

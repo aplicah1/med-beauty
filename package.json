@@ -1,0 +1,15 @@
+{
+    "dependencies": {
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-sass": "^4.1.0",
+        "react": "^16.13.1"
+    },
+    "scripts": {
+        "v-run": "vtex unlink --all && vtex link --clean",
+        "v-gulp": "gulp mount && gulp watch",
+        "v-publish": "vtex use prod --production -y && vtex publish -y",
+        "v-deploy": "vtex deploy -y && vtex promote -y"
+    },
+    "version": "0.0.0"
+}

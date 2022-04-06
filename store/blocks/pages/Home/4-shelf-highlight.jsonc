@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#home-shelf-highlight": {
+        "title": "Prateleira de destaque",
+        "children": [
+            "image#background-image-shelf",
+            "flex-layout.col#home-shelf-highlight-title",
+            "list-context.product-list#home-highlight"
+        ],
+        "props": {
+            "blockClass": "home-shelf-highlight",
+            "colSizing": "auto"
+        }
+    },
+    "list-context.product-list#home-highlight": {
+        "title": "Prateleira de destaque",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#shelf-home-highlight"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 5,
+            "width": "60%",
+            "blockClass": "home-shelf-highlight"
+        }
+    },
+    "slider-layout#shelf-home-highlight": {
+        "title": "Slider da Prateleira de destaque",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": "home-shelf-highlight"
+        }
+    },
+    "image#background-image-shelf": {
+        "title": "Fundo da Prateleira",
+        "props": {
+            "blockClass": "background-image-shelf",
+            "src": "assets/home/home-bg-highlight.svg"
+        }
+    },
+    "flex-layout.col#home-shelf-highlight-title": {
+        "title": "Textos da Prateleira",
+        "children": [
+            "rich-text#home-shelf-highlight-text-1",
+            "link#home-shelf-highlight"
+        ],
+        "props": {
+            "blockClass": "home-shelf-highlight-title",
+            "width": "40%",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#home-shelf-highlight-text-1": {
+        "title": "Texto da Prateleira",
+        "props": {
+            "blockClass": "home-shelf-highlight-text",
+            "text": "## Lançamentos \n\n Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. "
+        }
+    },
+    "link#home-shelf-highlight": {
+        "title": "Botão CTA da Prateleira",
+        "props": {
+            "label": "Todos os lançamentos",
+            "href": "#",
+            "blockClass": "button-cta-default"
+        }
+    }
+}

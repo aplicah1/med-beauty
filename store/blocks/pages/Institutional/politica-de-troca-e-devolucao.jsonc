@@ -1,0 +1,186 @@
+{
+    "store.custom#exchange-and-return-policy": {
+        "blocks": [
+            "flex-layout.row#banner-exchange-and-return-policy",
+            "rich-text#exchange-and-return-policy",
+            "flex-layout.row#exchange-and-return-policy"
+        ]
+    },
+    "flex-layout.row#banner-exchange-and-return-policy":{
+        "props": {
+            "blockClass": "container-banner"
+        },
+        "children": [
+            "image#banner-exchange-and-return-policy"
+        ]
+    },
+    "image#banner-exchange-and-return-policy": {
+        "props": {
+            "src": "https://denon.vtexassets.com/arquivos/banner_.jpg",
+            "blockClass": "banner-primary"
+        }
+    },
+    "rich-text#exchange-and-return-policy": {
+        "props": {
+            "blockClass": ["title-exchange-and-return-policy"],
+            "text": "# Politica de Troca e Privacidade"
+        }
+    },
+    "flex-layout.row#exchange-and-return-policy": {
+        "props": {
+            "blockClass": "container-text-denon",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#title-exchange-and-return-policy",
+            "rich-text#title-exchange-and-return-policy-1",
+            "rich-text#text-denon--exchange-and-return-policy-1",
+
+            "rich-text#title-exchange-and-return-policy-2",
+            "rich-text#text-denon--exchange-and-return-policy-2",
+
+            "rich-text#text-denon--exchange-and-return-policy-3",
+
+            "rich-text#title-exchange-and-return-policy-4",
+            "rich-text#text-denon--exchange-and-return-policy-4",
+
+            "rich-text#title-exchange-and-return-policy-5",
+            "rich-text#text-denon-exchange-and-return-policy-5",
+
+            "rich-text#title-exchange-and-return-policy-6",
+            "rich-text#text-denon--exchange-and-return-policy-6",
+
+            "rich-text#title-exchange-and-return-policy-7",
+            "rich-text#text-denon--exchange-and-return-policy-7",
+
+            "rich-text#title-exchange-and-return-policy-8",
+            "rich-text#text-denon--exchange-and-return-policy-8",
+
+            "rich-text#title-exchange-and-return-policy-9",
+            "rich-text#text-denon--exchange-and-return-policy-9",
+
+            "rich-text#title-exchange-and-return-policy-10",
+            "rich-text#text-denon--exchange-and-return-policy-10"
+        ]
+    },
+    "rich-text#title-exchange-and-return-policy": {
+        "props": {
+            "text": "## 1.TROCAS E DEVOLUÇÕES:",
+            "blockClass": ["title-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-1": {
+        "props": {
+            "text": "## 1.1.Condições de Devolução",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-1":{
+        "props": {
+            "text": "A mercadoria deverá retornar nas mesmas condições em que foi entregue, ou seja: Lacres intactos dos fabricantes embalagem original em perfeitas condições e completa com todos os manuais, acessórios e quaisquer outros itens que façam parte do produto. É importante ressaltar que a caixa do produto também deve ser preservada em perfeitas condições, isto é, a embalagem não pode estar danificada ou violada. Esclarece-se que o produto NÃO PODE TER SIDO USADO.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-2":{
+        "props": {
+            "text": "## 1.2.Situações Possíveis de Retorno da Mercadoria\n\nExistem quatro hipóteses em que a mercadoria pode ser devolvida:",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-2":{
+        "props": {
+            "text": "A. Produto avariado.\n\nB. Produto em desacordo com o pedido.\n\nC. Desistência da compra (Prazo de 07 dias – conforme art. 49 do Código de Defesa do Consumidor) nas condições de devoluções citadas acima.\n\nD. Produto com defeito técnico ou de fabricação.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-3":{
+        "props": {
+            "text": "OBS: Todas as devoluções deverão ser previamente autorizadas por nosso setor técnico responsável SAC. É importante ressaltar que para cada situação de Retorno haverá um Prazo; sendo 48 horas para Produto Avariado (item A) ou Produto em Desacordo com o Pedido (item B), 07 dias para Desistência da Compra (item C) e no caso de Produtos que apresentem Defeitos (item D) deverá ser consultado o prazo de garantia especificada no certificado de garantia, sendo que para devolução do produto não poderão ter sido completados 7 dias da data de compra.O cliente deverá arcar com as despesas de envio para devolução, e o valor de frete da compra será descontado do reembolso.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-4":{
+        "props": {
+            "text": "## 1.3.Como obter a autorização para retorno de mercadoria",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-4":{
+        "props": {
+            "text": "O LACRE NÃO PODE ESTAR VIOLADO, SERÁ FEITO A CONFIRMAÇÃO DO MESMO NO ATO DO RECEBIMENTO DE RETORNO DA MERCADORIA.\n\nO cliente poderá solicitar troca ou devolução no próprio SAC AMAZING BRASIL/ FANS através do telefone e relatar que deseja obter autorização de retorno de mercadoria. Qualquer que seja o motivo do retorno da mercadoria, está deverá regressar ao estoque com todos os componentes, na embalagem original, com manuais, sem uso etc., tendo o protocolo de autorização e remetente facilmente visíveis na parte exterior embalagem.\n\nO cliente deverá arcar com as despesas de envio para devolução, e o valor de frete da compra será descontado do reembolso.\n\nEsclarecemos que no caso de devolução por defeito no produto, mesmo sendo a solicitação realizada dentro do prazo previsto para devolução por arrependimento da compra, a AMAZING BRASIL/ FANS reserva-se o direito de providenciar o conserto do produto, nos termos do Código de Defesa do Consumidor.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-5":{
+        "props": {
+            "text": "## A-Produto Avariado",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon-exchange-and-return-policy-5":{
+        "props": {
+            "text": "O cliente deverá ficar atento no ato da entrega, recusando imediatamente o produto ou a embalagem que estiver sido avariada no transporte, devendo então entrar em contato com a SAC AMAZING BRASIL/ FANS no prazo Máximo de 48 horas* para acionar a Garantia (ver item 2.3 e selecionar “Dano físico”). *Todos os pedidos possuem um código de rastreamento indicando onde e quando o Produto foi entregue. Solicitações de avaria não serão aceitas fora do prazo.\n\nPortanto, para sua segurança, certifique-se no ato da entrega se o produto foi avariado durante o transporte. Não será aceito produtos com lacres violados.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-6":{
+        "props": {
+            "text": "## B-Produto em desacordo com o pedido",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-6":{
+        "props": {
+            "text": "Caso o cliente detecte no ato da entrega que o produto encomendado e o produto adquirido são diferentes, ele deverá recusar a entrega imediatamente, se aceitou a encomenda sem observar a descrição da Nota Fiscal, o prazo para entrar em contato com a Amazing e acionar a Garantia (ver item 2.3 e selecionar “Dano Físico/Desacordo”) será de 48 horas. Solicitações fora desse prazo não serão aceitas, pois será considerado que o consumidor aceitou o produto enviado.\n\nConstatado qualquer desacordo, como ausência de divergência entre o produto adquirido e produto entregue, indícios de mau uso ou ausência de manual Amazing fica isenta de aceitar a devolução e fazer a troca, podendo reenviar o produto ao cliente sem prévia consulta por frete a pagar. Portanto, para sua segurança, certifique-se no ato da entrega se o produto entregue é igual ao produto adquirido, basta confrontar o e-mail de confirmação de compra com os dados da embalagem.\n\nDepois de analisadas as condições do produto devolvido e constatadas as perfeitas condições do mesmo, a Amazing enviará o produto correto ao cliente. Não será aceito produtos com lacres violados.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-7":{
+        "props": {
+            "text": "## C-Desistência da Compra",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-7":{
+        "props": {
+            "text": "Na hipótese de desistência da compra, conforme previsto no Artigo 49 do Código de Defesa do Consumidor (CDC - Lei 8.078 de 11/Set/1990), restrita apenas às compras efetuadas pelo site o cliente terá a opção de devolver a mercadoria no prazo de até 07 dias corridos do recebimento, respeitando requisitos dos itens 1.2 e 2.1.\n\nO cliente deverá enviar a 2ª via da nota fiscal. Descreva, no verso, o motivo de sua solicitação de devolução. O cliente irá receber uma restituição no valor da compra, desde que dentro do prazo estabelecido no Código de Defesa do Consumidor.\n\nOu seja, ao devolver um produto por estar insatisfeito, o cliente deverá arcar com as despesas de envio para devolução. Não será aceito produtos com lacre violados.\n\nA restituição do valor (produto) será providenciada somente após o recebimento e análise das condições do produto devolvido. A AMAZING BRASIL/ FANS terá o prazo de 30 dias após a confirmação da constatação do defeito caso seja o motivo e em desistência por arrependimento será feito a confirmação do lacre inviolado pelos nossos técnicos para:\n\n1-Inserir crédito no valor do produto, o qual o cliente poderá utilizar de uma só vez para adquirir qualquer outro produto.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-8":{
+        "props": {
+            "text": "## 2- Estornar o valor do produto, observando que:",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-8":{
+        "props": {
+            "text": "a- Em compras pagas no cartão de crédito, o estorno ocorrerá em até 2 (duas) faturas subsequentes. Este procedimento é de inteira responsabilidade da administradora do seu cartão.\n\nb- Em compras pagas através de boleto bancário e cartão de débito, a restituição será efetuada via depósito, transferência, TED ou ordem de pagamento na conta corrente indicada pelo cliente. Esta devolução poderá ser feita em até 20 dias úteis.\n\nCaso fique constatado que o cliente não cumpriu com as condições de devolução ou perdeu a garantia do produto, o mesmo será devolvido sem prévia comunicação por frete a cobrar.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-9":{
+        "props": {
+            "text": "## D-Devolução de produtos com defeito",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-9":{
+        "props": {
+            "text": "Na hipótese de o produto apresentar defeito de fabricação, o mesmo deverá retornar à loja para manutenção e/ou troca. É o exercício da garantia em si, portanto, é necessário que o defeito apresentado seja comunicado oficialmente à AMAZING BRASIL/ FANS dentro do respectivo prazo estabelecido para cada produto, conforme descrito na nota fiscal. A partir do recebimento da mercadoria.\n\nÉ importante esclarecer que há diferença entre ambas as Garantias, como observaremos a seguir.\n\nQuando o produto apresentar defeito dentro dos 12 primeiros meses, e sendo este confirmado através de testes realizados em nosso departamento técnico, contactaremos o cliente o mais breve possível no sentido de lhe informar o resultado dos testes.\n\nImportante: A reposição ou conserto de um produto não se constitui em nova compra, não sendo, portanto, motivo de extensão ou renovação do prazo de garantia estipulado na nota fiscal.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-exchange-and-return-policy-10":{
+        "props": {
+            "text": "## 2-FORMA DE REMESSA",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--exchange-and-return-policy-10":{
+        "props": {
+            "text": "A remessa deve ser feita através dos Correios. O equipamento deve ser remetido diretamente à loja. A AMAZING não se responsabiliza pela retirada nos correios ou em outros locais. O cliente deverá arcar com as despesas de envio para devolução, e o valor de frete da compra será descontado do reembolso.\n\nSe preferir devolvê-lo, garantimos a restituição do valor total da compra.\n\nQueremos ter uma relação sincera e transparente com você. Nosso compromisso é que você esteja satisfeito.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    }
+}

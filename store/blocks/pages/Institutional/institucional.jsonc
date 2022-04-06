@@ -1,0 +1,40 @@
+{
+    "store.custom#institucional": {
+        "blocks": [
+            "info-card#institucional",
+            "flex-layout.row#container-institucional"
+        ]
+    },
+    "flex-layout.row#container-institucional": {
+        "props": {
+            "blockClass": "container-institucional"
+        },
+        "children": [
+            "flex-layout.col#container-institucional"
+        ]
+    },
+    "flex-layout.col#container-institucional": {
+        "children": [
+            "rich-text#institucional"
+        ]
+    },
+    "info-card#institucional": {
+        "props": {
+            "id": "institucional-Institucional",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://denon.vtexassets.com/arquivos/banner_.jpg",
+            "headline": "# CONDIÇÕES DE GARANTIA",
+            "blockClass": "institucional-default",
+            "textAlignment": "center",
+            "callToActionMode": "none",
+            "textMode": "rich-text"
+        }
+    },
+    "rich-text#institucional": {
+        "props": {
+            "text": "### CONDIÇÕES DE GARANTIA \n\n - A garantia é designada ao comprador original, detentor da nota fiscal de compra que deverá obrigatoriamente ser apresentada \n\n - Em casos de produtos que devem ser instalados: A garantia somente será concedida se o produto for instalado por profissional especializado. \n\n - A Amazing Brasil dá cobertura a todas as partes, peças ou componentes que apresentarem falha na fabricação dentro da vigência do prazo de garantia. \n\n - Para acionar a garantia, o produto deve ser entregue em uma Assistência Técnica Autorizada com todos os seus acessórios originais. \n\n\n ### NÃO SERÁ CONCEDIDA A GARANTIA QUANDO: \n\n\n - Se a NF de compra for de alguma forma alterada ou se tornar ilegível; \n\n - Alguma parte, peça ou componente do produto estiver violado; \n\n - Se o produto sofrer avaria proveniente de queda bem como derramamento de alimentos ou líquidos de qualquer natureza; \n\n - Se o número de série ou data de fabricação que indica o produto estiver rasgado ou ilegível; \n\n - Em casos de alto-falantes: O produto apresentar o cone rasgado ou danificado, o corpo do alto-falante torto ou a bobina queimada; \n\n - Se, ao utilizar o equipamento, não forem observadas as instruções e advertências contidas no manual do usuário; \n\n - A umidade, (oxidação) poeira, luz solar, salinidade excessivas, falta de ventilação (superaquecimento) do equipamento. \n\n - Verificar instalações principalmente em tv a cabo, não fazer conexões via hdmi com o aparelho conectado. \n\n - Não fazer conexões USB com o aparelho ligado. \n\n - Antes da instalação do aparelho verificar as caixas acústicas, principalmente em zona 2 (zona aberta) para não causar problemas nos canais do produto. \n\n - Todas as atualizações de software são de responsabilidade do proprietário do produto. \n\n - O solicitante da garantia não for o usuário original, não sendo a compra comprovada através de nota fiscal para todos os fins legais; \n\n - Essa garantia ficará automaticamente cancelada se os equipamentos vierem a sofrer reparos por pessoas não autorizadas, receber maus tratos ou sofrer danos decorrentes de acidentes, quedas, variações de tensão elétrica e sobrecarga acima do especificado, ou qualquer ocorrência imprevisível, decorrentes de má utilização dos equipamentos por parte do usuário. \n\n\n ### A AMAZING BRASIL NÃO DARA COBERTURA DE DESPESAS: \n\n\n - Pilhas, bem como as peças do desgaste normal de uso; \n\n - Geradas no conserto do produto danificado por mau acondicionamento pelo cliente no caso de transporte; \n\n - Com acidentes, embalagens ou com seguros de qualquer natureza; \n\n - De uso indevido do produto ou sem a devida observação às recomendações técnicas da Amazing Brasil; \n\n\n ### PERIODO DE GARANTIA: \n\n\n - O período legal de garantia é de 360 dias que é contado a partir da data da emissão da Nota Fiscal. \n\n - Quando for realizada a troca do equipamento, será concedida a garantia legal de 90 dias para o equipamento novo. \n\n - Kits para reparos: somente é disponibilizada a garantia legal. \n\n\n ### PARA SUPORTE: \n\n\n Entre em contato pelos nossos canais de atendimento.",
+            "blockClass": "institucional-default"
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "store.custom#common-questions": {
+        "blocks": [
+            "flex-layout.row#banner-common-questions",
+            "rich-text#title-common-questions",
+            "flex-layout.row#text-denon-common-questions"
+        ]
+    },
+    "flex-layout.row#banner-common-questions":{
+        "props": {
+            "blockClass": "container-banner"
+        },
+        "children": [
+            "image#banner-common-questions"
+        ]
+    },
+    "image#banner-common-questions": {
+        "props": {
+            "src": "https://denon.vtexassets.com/arquivos/banner_.jpg",
+            "blockClass": "banner-primary"
+        }
+    },
+    "rich-text#title-common-questions": {
+        "props": {
+            "blockClass": "title-common-questions",
+            "text": "# Perguntas Frequentes"
+        }
+    },
+    "flex-layout.row#text-denon-common-questions": {
+        "props": {
+            "blockClass": "container-text-denon",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#title-denon-1",
+            "rich-text#subtitle-denon-1",
+            "video#background",
+            "rich-text#subtitle-denon-2",
+            "video#background-2",
+
+            "rich-text#title-denon-2",
+            "rich-text#subtitle-denon-3",
+            "rich-text#text-denon-2",
+
+            "rich-text#title-denon-3",
+            "rich-text#subtitle-denon-4",
+            "rich-text#text-denon-3"
+        ]
+    },
+    "rich-text#title-denon-1": {
+        "props": {
+            "text": "## Como obtenho o áudio da televisão por meio do receptor de AV Receiver?",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#subtitle-denon-1":{
+        "props": {
+            "text": "### Isso pode ser feito de duas maneiras diferentes:\n\n Se o seu receptor de AV for compatível com ARC / Canal de retorno de áudio, você pode configurar o áudio da televisão da seguinte forma:",
+            "blockClass": ["text-denon", "text-subtitle-denon"]
+        }
+    },
+    "video#background": {
+        "props": {
+          "width": "100%",
+          "height": "100%",
+          "loop": false,
+          "autoPlay": false,
+          "muted": false,
+          "src": "https://www.youtube.com/embed/LMR1iQmknvY",
+          "blockClass": "videoEl"
+        }
+    },
+    "rich-text#subtitle-denon-2":{
+        "props": {
+            "text": "Se o receptor de AV não for compatível com ARC / Canal de retorno de áudio, o áudio da televisão pode ser configurado usando um cabo óptico da seguinte maneira:",
+            "blockClass": "text-denon"
+        }
+    },
+    "video#background-2": {
+        "props": {
+          "width": "100%",
+          "height": "100%",
+          "loop": false,
+          "autoPlay": false,
+          "muted": false,
+          "src": "https://www.youtube.com/embed/74RuakwIcMc",
+          "blockClass": "videoEl"
+        }
+    },
+    "rich-text#title-denon-2":{
+        "props": {
+            "text": "## Como posso tocar Apple Music no meu dispositivo HEOS?",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#subtitle-denon-3":{
+        "props": {
+            "text": "Atualmente, o Apple Music não está disponível como serviço de música com o aplicativo HEOS. No entanto, existe uma maneira fácil de ouvir Apple Music em um dispositivo HEOS ou em um grupo de vários dispositivos HEOS. Isso requer apenas o aplicativo Apple Music em execução em um dispositivo móvel compatível com Bluetooth.",
+            "blockClass": "subtitle-denon"
+        }
+    },
+    "rich-text#text-denon-2":{
+        "props": {
+            "text": "1. Pressione e segure o botão Bluetooth (círculo vermelho esquerdo na imagem) na parte de trás do seu dispositivo HEOS (o recurso está disponível em dispositivos HS2 HEOS) por pelo menos 4 segundos. O LED de conexão (à direita na imagem) começará a piscar em verde.\n\n2. Toque no item Bluetooth no menu Configurações do seu dispositivo inteligente e certifique-se de que o Bluetooth está ligado.\n\n3. Após um curto período, o nome do seu dispositivo HEOS aparece no menu Bluetooth do seu dispositivo inteligente.\n\n4. Toque no nome do dispositivo para conectar. O dispositivo será adicionado em Meus dispositivos e será mostrado como Conectado.\n\n5. Agora você pode mudar para o aplicativo Música e selecionar a música que você gosta, que agora será reproduzida automaticamente através do dispositivo HEOS conectado.",
+            "blockClass": "text-denon"
+        }
+    },
+    "rich-text#title-denon-3":{
+        "props": {
+            "text": "## Como emparelhar meu alto-falante HEOS com um dispositivo Bluetooth?",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#subtitle-denon-4":{
+        "props": {
+            "text": "Em primeiro lugar, você precisa saber se o seu dispositivo HEOS é uma versão HS1 ou HS2. Se tiver um botão Reset na parte traseira, é a versão HS1. Se tiver um botão Bluetooth na parte traseira /, é uma versão HS2.",
+            "blockClass": "subtitle-denon"
+        }
+    },
+    "rich-text#text-denon-3":{
+        "props": {
+            "text": "**Para a versão HS1:**\n\n- Bluetooth era opcional. Portanto, você precisa conectar o adaptador Bluetooth à interface USB. Se você não tiver um adaptador Bluetooth, precisará comprar um. HEOS só funciona com adaptadores Bluetooth selecionados, como o Plugable USB-BT4LE. Observe que não podemos garantir o funcionamento com o stick Bluetooth mencionado acima, porque alterações relacionadas às especificações podem ser feitas pelo fabricante a qualquer momento.\n\n- Após inicializar a unidade HEOS e conectar o adaptador, espere alguns segundos.\n\n- Pressione e segure o botão Conectar até que o LED pisque rapidamente em verde\n\n- Agora você pode detectar o alto-falante HEOS usando seu dispositivo Bluetooth e conectar\n\n**Para a versão HS2:**\n\n- Bluetooth integrado.\n\n- Depois de inicializar a unidade HEOS, pressione e segure o botão Bluetooth até que o LED pisque em verde.\n\n- Agora você pode detectar o alto-falante HEOS usando seu dispositivo Bluetooth e conectar",
+            "blockClass": "text-denon"
+        }
+    }
+}

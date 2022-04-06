@@ -1,0 +1,40 @@
+{
+    "store.custom#cadastro": {
+        "props": {
+            "blockClass": "container-cadastro"
+        },
+        "blocks": [
+            "info-card#cadastro",
+            "flex-layout.row#form"
+        ]
+    },
+    "info-card#cadastro": {
+        "title": "Banner",
+        "props": {
+            "id": "info-card-sobre-interna-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://medbeauty.vtexassets.com/assets/vtex/assets-builder/medbeauty.medbeauty-store/0.0.5/home/home-1___4f6409ce02f46ef197ddebb48f07c330.jpg",
+            "headline": "# Cadastro",
+            "subhead": "",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "blockClass": "banner-pag-institucional",
+            "textAlignment": "center",
+            "textMode": "rich-text"
+        }
+    },
+    "flex-layout.row#form": {
+        "children": [
+            "iframe"
+        ]
+    },
+    "iframe": {
+        "props": {
+            "src": "https://medbeauty.com.br/cadastro",
+            "title": "Cadastro",
+            "width": "920",
+            "height": "1000"
+        }
+    }
+}

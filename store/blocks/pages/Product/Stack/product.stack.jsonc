@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#stack": {
+        "children": [
+            "product-images"
+        ],
+        "props": {
+            "blockClass": "stack",
+            "width": "auto"
+        }
+    },
+    "product-images": {
+        "props": {
+            "displayThumbnailsArrows": false,
+            "showPaginationDots": true,
+            "thumbnailsOrientation": "horizontal",
+            "blockClass": "default-pdp",
+            "hiddenImages": [
+                "descricao1",
+                "descricao2",
+                "descricao3",
+                "descricao4",
+                "descricao5"
+            ],
+            "maxWidth": "100%"
+        }
+    }
+}

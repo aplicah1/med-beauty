@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#footer-3-desktop": {
+        "children": [
+            "rich-text#footer",
+            "image#credits",
+            "rich-text#dev-seals"
+        ],
+        "props": {
+            "blockClass": "credits",
+            "colSizing": "auto"
+        }
+    },
+    "rich-text#footer": {
+        "props": {
+            "text": "Denon - CNPJ: 00.000.000/0001-00 © Todos os direitos reservados. 2021",
+            "blockClass": "footer"
+        }
+    },
+    "image#credits": {
+        "props": {
+            "src": "https://wedigi.vtexassets.com/arquivos/catoes-pagamentos.png",
+            "maxHeight": 45,
+            "blockClass": "credits"
+        }
+    },
+    "rich-text#dev-seals": {
+        "props": {
+            "text": "[![](https://denon.vtexassets.com/arquivos/vtex-logo.png)](https://vtex.com/br-pt?target=_blank) [![](https://denon.vtexassets.com/arquivos/wedigi-logo.png)](https://www.wedigi.com.br?target=_blank)",
+            "blockClass": "dev-seals"
+        }
+    },
+    // - Mobile
+    "flex-layout.row#footer-2-mobile": {
+        "props": {
+            "blockClass": "container-credits",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#credits",
+            "rich-text#footer",
+            "rich-text#dev-seals"
+        ]
+    }
+}

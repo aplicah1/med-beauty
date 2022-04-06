@@ -1,0 +1,38 @@
+{
+  "wdt-custom-slider-default#home-page-1": {
+    "title": "1° Slider Home Mobile/Desktop",
+    "props": {
+      "blockClass": "home-page",
+      "slidesToShow": {
+        "desktop": 1,
+        "mobile": 1
+      },
+      "banners": [
+        {
+          "image": {
+            "alt": "#",
+            "desktop": "assets/home/home-1.jpg",
+            "mobile": "assets/home/home-1-mob-2.jpg"
+          },
+          "title": "Naturalmente beauty, definitivamente tech."
+        },
+        {
+          "image": {
+            "alt": "#",
+            "desktop": "assets/home/home-1.jpg",
+            "mobile": "assets/home/home-1-mob-2.jpg"
+          },
+          "title": "Naturalmente beauty, definitivamente tech."
+        },
+        {
+          "image": {
+            "alt": "#",
+            "desktop": "assets/home/home-1.jpg",
+            "mobile": "assets/home/home-1-mob-2.jpg"
+          },
+          "title": "Naturalmente beauty, definitivamente tech."
+        }
+      ]
+    }
+  }
+}

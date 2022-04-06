@@ -1,0 +1,72 @@
+{
+    "flex-layout.row#search-page-title-banner": {
+        "title": "Titulo, Imagem e Descrição Topo",
+        "children": [
+            "flex-layout.col#search-page-title-banner"
+        ],
+        "props": {
+            "blockClass": "search-page-title-banner",
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#search-page-title-banner": {
+        "props": {
+            "blockClass": "search-page-title-banner"
+        },
+        "children": [
+            "responsive-layout.desktop#background-category",
+            "responsive-layout.mobile#background-category",
+            "search-title.v2",
+            "rich-text#subtitle-search-page",
+            "responsive-layout.desktop#filter-category",
+            "responsive-layout.mobile#filter-category"
+        ]
+    },
+    "responsive-layout.desktop#filter-category": {
+        "children": [
+            "flex-layout.row#filter-section"
+        ]
+    },
+    "responsive-layout.mobile#filter-category": {
+        "children": [
+            "flex-layout.row#filter-mobile"
+        ]
+    },
+    "responsive-layout.desktop#background-category": {
+        "children": [
+            "image#background-category-desktop-top"
+        ]
+    },
+    "image#background-category-desktop-top": {
+        "title": "Imagem desktop",
+        "props": {
+            "blockClass": [
+                "background-category-top"
+            ],
+            "src": "assets/category/category-topo.jpg"
+        }
+    },
+    "responsive-layout.mobile#background-category": {
+        "children": [
+            "image#background-category-mobile-top"
+        ]
+    },
+    "image#background-category-mobile-top": {
+        "title": "Imagem mobile",
+        "props": {
+            "blockClass": [
+                "background-category-top"
+            ],
+            "src": "assets/category/category-topo-mob.jpg"
+        }
+    },
+    "rich-text#subtitle-search-page": {
+        "title": "Descrição",
+        "props": {
+            "blockClass": [
+                "subtitle-search-page"
+            ],
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+        }
+    }
+}

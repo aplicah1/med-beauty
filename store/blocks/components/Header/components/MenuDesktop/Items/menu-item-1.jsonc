@@ -1,0 +1,115 @@
+{
+    "menu-item#menu-item-1": {
+        "title": "Item 1 Menu Desktop",
+        "props": {
+            "id": "menu-item-menu-item-1",
+            "blockClass": "menu-item-header-desktop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/i-Thread",
+                "noFollow": false,
+                "tagTitle": "i-Thread",
+                "text": "i-Thread"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#menu-item-1"
+        ]
+    },
+    "vtex.menu@2.x:submenu#menu-item-1": {
+        "title": "SubMenu 1 Menu Desktop",
+        "props": {
+            "blockClass": "header-desktop-submenu"
+        },
+        "children": [
+            "flex-layout.row#container-submenu-header-1"
+        ]
+    },
+    "flex-layout.row#container-submenu-header-1": {
+        "children": [
+            "flex-layout.col#container-submenu-text-1",
+            "wdt-custom-slider-default#submenu-1"
+        ],
+        "props": {
+            "blockClass": [
+                "container-submenu-header"
+            ],
+            "colGap": 7
+        }
+    },
+    "wdt-custom-slider-default#submenu-1": {
+        "title": "Carousel de imagens do Menu 1",
+        "props": {
+            "blockClass": "submenu",
+            "slidesToShow": {
+                "desktop": 3,
+                "mobile": 1
+            },
+            "banners": [
+                {
+                    "image": {
+                        "alt": "#",
+                        "desktop": "assets/images/submenu-1.jpg",
+                        "mobile": "assets/images/submenu-1.jpg"
+                    },
+                    "title": "Lisos"
+                },
+                {
+                    "image": {
+                        "alt": "#",
+                        "desktop": "assets/images/submenu-2.jpg",
+                        "mobile": "assets/images/submenu-2.jpg"
+                    },
+                    "title": "Parafusos"
+                },
+                {
+                    "image": {
+                        "alt": "#",
+                        "desktop": "assets/images/submenu-3.jpg",
+                        "mobile": "assets/images/submenu-3.jpg"
+                    },
+                    "title": "Especulados"
+                },
+                {
+                    "image": {
+                        "alt": "#",
+                        "desktop": "assets/images/submenu-3.jpg",
+                        "mobile": "assets/images/submenu-3.jpg"
+                    },
+                    "title": "Especulados"
+                }
+            ]
+        }
+    },
+    "flex-layout.col#container-submenu-text-1": {
+        "children": [
+            "rich-text#content-submenu-01",
+            "link#cta-submenu-1"
+        ],
+        "props": {
+            "blockClass": [
+                "container-submenu-text"
+            ],
+            "width": "35%"
+        }
+    },
+    "rich-text#content-submenu-01": {
+        "title": "Texto do SubMenu 1",
+        "props": {
+            "blockClass": [
+                "content-submenu"
+            ],
+            "text": "![ithread](assets/logos/ithread-1.svg) \n\n Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+        }
+    },
+    "link#cta-submenu-1": {
+        "title": "Link do SubMenu 1",
+        "props": {
+            "href": "/#",
+            "blockClass": "cta-submenu",
+            "label": "Ver Todos"
+        }
+    }
+}

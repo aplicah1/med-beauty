@@ -1,0 +1,26 @@
+{
+    "store.custom#how-it-works": {
+        "props": {
+            "blockClass": "container-how-it-works"
+        },
+        "blocks": [
+            "info-card#how-it-works"
+        ]
+    },
+    "info-card#how-it-works": {
+        "title": "Banner",
+        "props": {
+            "id": "info-card-sobre-interna-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://medbeauty.vtexassets.com/assets/vtex/assets-builder/medbeauty.medbeauty-store/0.0.5/home/home-1___4f6409ce02f46ef197ddebb48f07c330.jpg",
+            "headline": "# Como Funciona",
+            "subhead": "",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "blockClass": "sobre-interna-banner-primary",
+            "textAlignment": "center",
+            "textMode": "rich-text"
+        }
+    }
+}

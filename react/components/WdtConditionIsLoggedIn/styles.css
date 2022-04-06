@@ -1,0 +1,27 @@
+.containerLoggedIn .loginCta {
+  width: 100%;
+  border: 1px solid #6460AA;
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s ease;
+  margin-top: 30px;
+  color: #6460AA;
+  text-decoration: none;
+  text-transform: uppercase;
+}   
+.containerLoggedIn .loginCta:hover {
+    background-color: #6460AA;
+    color: #fff;
+}
+.containerLoggedIn .responseMessage {
+  font-size: 14px;
+  color: #6460AA;
+  font-style: italic;
+  margin: 15px auto;
+  max-width: 300px;
+  display: block;
+  text-align: center;
+}

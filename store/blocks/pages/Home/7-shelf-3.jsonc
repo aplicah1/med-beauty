@@ -1,0 +1,39 @@
+{
+    "flex-layout.row#home-container-shelf-3": {
+        "title": "Prateleira 3",
+        "props": {
+            "blockClass": "home-container-shelf"
+        },
+        "children": [
+            "flex-layout.col#home-container-shelf-3"
+        ]
+    },
+    "flex-layout.col#home-container-shelf-3": {
+        "children": [
+            "rich-text#title-shelf-3",
+            "list-context.product-list#home-3"
+        ]
+    },
+    "list-context.product-list#home-3": {
+        "title": "Prateleira 3",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#shelf-home"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 5,
+            "width": "100%",
+            "blockClass": "home-shelf"
+        }
+    },
+    "rich-text#title-shelf-3": {
+        "props": {
+            "blockClass": "title-shelf",
+            "font": "t-body",
+            "text": "## Nano Cânula UTW Tech ![Nano Cânula UTW Tech](assets/logos/nano.svg)"
+        }
+    }
+}

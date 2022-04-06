@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#container-ruler-home": {
+    "title": "Lista de Marcas",
+    "children": [
+      "list-context.image-list#home-ruler-1"
+    ],
+    "props": {
+      "blockClass": [
+        "container-ruler-home"
+      ]
+    }
+  },
+  "list-context.image-list#home-ruler-1": {
+    "children": [
+      "slider-layout#home-ruler-1"
+    ],
+    "title": "Regua da Home 1",
+    "props": {
+      "height": 40,
+      "blockClass": "home-ruler",
+      "images": [
+        {
+          "image": "assets/logos/ithread-1.svg",
+          "description": "ithread",
+          "link": "/ithread"
+        },
+        {
+          "image": "assets/logos/eptq.svg",
+          "description": "eptq",
+          "link": "/eptq"
+        },
+        {
+          "image": "assets/logos/nano.svg",
+          "description": "nano",
+          "link": "/nano"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-ruler-1": {
+    "title": "Regua da Home 1",
+    "props": {
+      "blockClass": "home-ruler",
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false
+    }
+  }
+}

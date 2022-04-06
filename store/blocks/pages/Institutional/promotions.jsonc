@@ -1,0 +1,65 @@
+{
+    "store.custom#custom-query-promocoes": {
+        "blocks": [
+            "info-card#custom-query-promocoes",
+            "search-result-layout.customQuery#promotions"
+        ]
+    },
+    "info-card#custom-query-promocoes": {
+        "props": {
+            "id": "custom-query-promocoes",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://denon.vtexassets.com/assets/vtex.file-manager-graphql/images/9512041c-14f0-48b9-839c-21603da32c82___f4dba30a40170c02b632cd85ff16eb31.jpg",
+            "headline": "# Denon",
+            "blockClass": "institucional-default",
+            "textAlignment": "center",
+            "callToActionMode": "none",
+            "textMode": "rich-text"
+        }
+    },
+    "search-result-layout.customQuery#promotions": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 4,
+                "queryField": "",
+                "mapField": "ft"
+            },
+            "blockClass": "custom-query-home-2"
+        },
+        "blocks": [
+            "search-result-layout.desktop#promotions",
+            "search-result-layout.mobile#promotions",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#promotions": {
+        "children": [
+            "flex-layout.row#filter-section",
+            "flex-layout.row#result"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+    "search-result-layout.mobile#promotions": {
+        "children": [
+            "flex-layout.row#filter-mobile",
+            "flex-layout.row#result-mobile"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    }
+}

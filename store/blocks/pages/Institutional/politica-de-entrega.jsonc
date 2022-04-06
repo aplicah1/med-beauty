@@ -1,0 +1,103 @@
+{
+    "store.custom#delivery-policy": {
+        "blocks": [
+            "flex-layout.row#banner-delivery-policy",
+            "rich-text#title-delivery-policy",
+            "flex-layout.row#text-delivery-policy"
+        ]
+    },
+    "flex-layout.row#banner-delivery-policy":{
+        "props": {
+            "blockClass": "container-banner"
+        },
+        "children": [
+            "image#banner-delivery-policy"
+        ]
+    },
+    "image#banner-delivery-policy": {
+        "props": {
+            "src": "https://denon.vtexassets.com/arquivos/banner_.jpg",
+            "blockClass": "banner-primary"
+        }
+    },
+    "rich-text#title-delivery-policy": {
+        "props": {
+            "blockClass": ["title-policy"],
+            "text": "# Politica de Entrega"
+        }
+    },
+    "flex-layout.row#text-delivery-policy": {
+        "props": {
+            "blockClass": "container-text-denon",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#title-denon-delivery-policy",
+            "rich-text#title-denon--delivery-policy-1",
+            "rich-text#text-denon--delivery-policy-1",
+
+            "rich-text#-delivery-policy-2",
+            "rich-text#text-denon--delivery-policy-2",
+
+            "rich-text#-delivery-policy-3",
+            "rich-text#text-denon--delivery-policy-3",
+
+            "rich-text#-delivery-policy-4",
+            "rich-text#text-denon--delivery-policy-4"
+        ]
+    },
+    "rich-text#title-denon-delivery-policy": {
+        "props": {
+            "text": "## Informações importantes:",
+            "blockClass": ["title-denon", "text-policy"]
+        }
+    },
+    "rich-text#title-denon--delivery-policy-1": {
+        "props": {
+            "text": "## 1. Processo de entrega",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--delivery-policy-1":{
+        "props": {
+            "text": "Devido ao atual cenário do país, podem ocorrer atrasos nas entregas durante o transporte. Estamos trabalhando em conjunto com a transportadora para cumprir os prazos.\n\n O prazo de entrega dos produtos adquiridos em nossa loja, é de acordo com a quantidade de dias informado no ato da compra.\n\nO prazo começará a contar a partir do primeiro dia útil após a confirmação do pagamento, seja ele via boleto bancário ou cartão de crédito\n\nSe atente sempre antes de finalizar a compra, pois caso seus dados estejam incorretos, isso pode acarretar em um atraso ou insucesso de entrega, fazendo com que o produto retorne ao nosso estoque, e caso o mesmo opte pelo reenvio, será efetuada uma nova cobrança de frete.\n\nAs entregas são realizadas de segunda a sexta, em horário comercial.\n\nÉ indispensável que no endereço solicitado esteja presente uma pessoa responsável para receber o pedido e assinar o comprovante.\n\nA entrega poderá ser feita a terceiros, como parentes e porteiros, desde que eles aceitem o recebimento do produto, mediante a apresentação de um documento com foto. Esse procedimento é fundamental para garantir a integridade e rastreamento do seu pedido.\n\nCaso o produto esteja em posse do entregador, não será possível realizar o ajuste de endereços incorretos.\n\nCartão de credito: O prazo de entrega iniciará a partir da confirmação do pagamento. Os pedidos estão sujeitos a confirmação de dados cadastrais.\n\nBoleto Bancário: A liberação do seu pedido está condicionada ao pagamento de boleto, cujo ocorre no prazo de 1 dia útil após sua emissão (observar “vencimento” informado no boleto).\n\n Dados incorretos ou incompletos podem gerar atraso desnecessário. Portanto, atualize o cadastro antes de concluir a compra.\n\nAs entregas são realizadas de segunda a sexta, das 8h às 18h.\n\nÉ indispensável que no endereço solicitado esteja presente uma pessoa responsável para receber o pedido e assinar o comprovante.\n\nA entrega poderá ser feita a terceiros, como parentes e porteiros, desde que eles aceitem o recebimento do produto, mediante a apresentação de um documento com foto. Esse procedimento é fundamental para garantir a integridade e rastreamento do seu pedido.\n\nNão é possível alteração de endereço após a expedição do produto.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#-delivery-policy-2":{
+        "props": {
+            "text": "## 2. Agendamento de entrega:",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--delivery-policy-2":{
+        "props": {
+            "text": "Não é possível agendar data e horário para entregas, uma vez que não podemos antecipar o roteiro escolhido para cada região. No entanto, se não houver ninguém no local para receber haverá mais duas tentativas de entrega e após o produto será devolvido ao estoque.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#-delivery-policy-3":{
+        "props": {
+            "text": "## 3. Entrega parcial do pedido",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--delivery-policy-3":{
+        "props": {
+            "text": "Em algumas situações, a entrega de um pedido pode ser realizada em duas remessas, conforme o tamanho dos produtos e sua disponibilidade em estoque. Por exemplo, caso de combos ou compra de dois robôs para mais, eles serão entregues separadamente, conforme a disponibilidade em estoque de cada um deles e o tempo de transporte até o endereço solicitado.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    },
+    "rich-text#-delivery-policy-4":{
+        "props": {
+            "text": "## 4. Data de entrega expirada",
+            "blockClass": "title-denon"
+        }
+    },
+    "rich-text#text-denon--delivery-policy-4":{
+        "props": {
+            "text": "Se o prazo de entrega do seu pedido expirou, veja o que pode ter ocorrido:\n\nData de entrega: verifique a data prevista de entrega do seu pedido. Dados do endereço: confirme os dados informados para entrega. Pagamento: confirme se o seu pedido já foi aprovado.\n\nAusência de recebedor: verifique o status do seu pedido. Caso conste a informação de que a transportadora já fez alguma tentativa de entrega sem êxito, pedimos que você aguarde de 24 a 48 horas. Neste período, faremos 2 tentativas de entrega. Depois disso, se não houver alguém para receber, o produto retornará ao estoque.\n\nUma nova tentativa para entregar o pedido será possível mediante a confirmação do endereço. O prazo para reenvio será o mesmo informado na finalização do pedido, contado a partir da confirmação do endereço.\n\n\nAtenção:\n\nO não recebimento do pacote por acarretar em uma nova cobrança do frete, caso as três tentativas não sejam atendidas.",
+            "blockClass": ["text-denon", "text-policy"]
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "store.custom#how-it-works": {
+        "children": [
+            "info-card#how-it-works",
+            "flex-layout.row#how-it-works"
+        ]
+    },
+    "info-card#how-it-works": {
+        "title": "Banner",
+        "props": {
+            "id": "info-card-sobre-interna-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://medbeauty.vtexassets.com/assets/vtex/assets-builder/medbeauty.medbeauty-store/0.0.5/home/home-1___4f6409ce02f46ef197ddebb48f07c330.jpg",
+            "headline": "# Como Funciona",
+            "subhead": "",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "blockClass": "banner-pag-institucional",
+            "textAlignment": "center",
+            "textMode": "rich-text"
+        }
+    },
+    "flex-layout.row#how-it-works": {
+        "props": {
+            "blockClass": "faq",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#how-it-works"
+        ]
+    },
+    "flex-layout.col#how-it-works": {
+        "children": [
+            "disclosure-layout#how-it-works-item-1",
+            "disclosure-layout#how-it-works-item-2",
+            "disclosure-layout#how-it-works-item-3"
+        ]
+    },
+    
+    // icons
+    "disclosure-state-indicator": {
+        "props": {
+            "Show": "icon-caret#down",
+            "Hide": "icon-caret#up"
+        }
+    },
+    "icon-caret#down": {
+        "props": {
+            "orientation": "down"
+        }
+    },
+    "icon-caret#up": {
+        "props": {
+            "orientation": "up"
+        }
+    }
+}

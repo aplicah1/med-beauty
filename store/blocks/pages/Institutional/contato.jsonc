@@ -1,0 +1,40 @@
+{
+    "store.custom#fale-conosco": {
+        "blocks": [
+            "info-card#institucional-contato",
+            "flex-layout.row#fale-conosco-1"
+        ]
+    },
+    "info-card#institucional-contato": {
+        "props": {
+            "id": "institucional-contato",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://denon.vtexassets.com/assets/vtex.file-manager-graphql/images/9512041c-14f0-48b9-839c-21603da32c82___f4dba30a40170c02b632cd85ff16eb31.jpg",
+            "headline": "# Fale Conosco",
+            "blockClass": "institucional-default",
+            "textAlignment": "center",
+            "callToActionMode": "none",
+            "textMode": "rich-text"
+        }
+    },
+    "flex-layout.row#fale-conosco-1": {
+        "props": {
+            "blockClass": "fale-conosco-1"
+        },
+        "children": [
+            "flex-layout.col#fale-conosco-1"
+        ]
+    },
+    "flex-layout.col#fale-conosco-1": {
+        "children": [
+            "rich-text#fale-conosco-content-1"
+        ]
+    },
+    "rich-text#fale-conosco-content-1": {
+        "props": {
+            "blockClass": "fale-conosco-content-1",
+            "text": "Preencha o formulário e entre em contato com a gente!"
+        }
+    }
+}

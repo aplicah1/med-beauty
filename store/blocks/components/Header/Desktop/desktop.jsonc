@@ -1,0 +1,100 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#container-header-desktop"
+    ]
+  },
+  "flex-layout.row#container-header-desktop": {
+    "children": [
+      "flex-layout.col#container-header-desktop"
+    ],
+    "props": {
+      "blockClass": "container-header"
+    }
+  },
+  "flex-layout.col#container-header-desktop": {
+    "children": [
+      "flex-layout.row#telemarketing",
+      "flex-layout.row#header-ruler-colorful",
+      "flex-layout.row#container-header-section-1"
+    ],
+    "props": {
+      "blockClass": "container-header"
+    }
+  },
+  "flex-layout.row#telemarketing": {
+    "children": [
+      "telemarketing"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#header-ruler-colorful": {
+    "children": [],
+    "props": {
+      "blockClass": "container-header-section-0",
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "colGap": 10
+    }
+  },
+  "flex-layout.row#container-header-section-1": {
+    "children": [
+      "flex-layout.row#header-desktop-logo",
+      "flex-layout.row#header-desktop-menu",
+      "flex-layout.row#header-desktop-search-bar-login-minicart"
+    ],
+    "props": {
+      "blockClass": "container-header-section-1",
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#header-desktop-logo": {
+    "children": [
+      "logo#default"
+    ],
+    "props": {
+      "blockClass": "container-header-section-1-subsection-1",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#header-desktop-menu": {
+    "children": [
+      "vtex.menu@2.x:menu#header-desktop"
+    ],
+    "props": {
+      "blockClass": "container-header-section-1-subsection-2",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#header-desktop-search-bar-login-minicart": {
+    "children": [
+      "custom-search-bar",
+      "rich-text#cadastro-topo",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "container-header-section-1-subsection-3",
+      "colGap": 6,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+
+    }
+  },
+  "rich-text#cadastro-topo":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Cadastro para Profissionais](/cadastro)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "cadastro-topo"
+    }
+  }
+}

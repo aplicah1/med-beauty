@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#home-container-shelf-1": {
+        "title": "Prateleira 1",
+        "props": {
+            "blockClass": "home-container-shelf"
+        },
+        "children": [
+            "flex-layout.col#home-container-shelf-1"
+        ]
+    },
+    "flex-layout.col#home-container-shelf-1": {
+        "children": [
+            "rich-text#title-shelf-1",
+            "list-context.product-list#home-1"
+        ]
+    },
+    "list-context.product-list#home-1": {
+        "title": "Prateleira",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#shelf-home"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 5,
+            "width": "100%",
+            "blockClass": "home-shelf"
+        }
+    },
+    "slider-layout#shelf-home": {
+        "title": "Slider da Prateleira de destaque",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": "home-shelf"
+        }
+    },
+    "rich-text#title-shelf-1": {
+        "props": {
+            "blockClass": "title-shelf",
+            "font": "t-body",
+            "text": "## I-THREAD Perfect You Beauty ![I-THREAD Perfect You Beauty](assets/logos/ithread-1.svg)"
+        }
+    }
+}

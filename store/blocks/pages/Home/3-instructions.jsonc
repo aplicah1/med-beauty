@@ -1,0 +1,116 @@
+{
+    "flex-layout.row#home-section-0": {
+        "title": "Lista de Instruções",
+        "children": [
+            "flex-layout.col#home-section-0"
+        ],
+        "props": {
+            "blockClass": "home-section-0"
+        }
+    },
+    "flex-layout.col#home-section-0": {
+        "children": [
+            "rich-text#home-section-0-title",
+            "list-context.info-card-list#home-list-instructions"
+        ],
+        "props": {
+            "blockClass": "home-section-0",
+            "rowGap": 7
+        }
+    },
+    "rich-text#home-section-0-title": {
+        "title": "Titulo da Sessão 'Como funciona'",
+        "props": {
+            "blockClass": "home-section-0-title",
+            "text": "## Como funciona?",
+            "font": "t-body",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base",
+            "textPosition": "CENTER"
+        }
+    },
+    "list-context.info-card-list#home-list-instructions": {
+        "title": "Lista de Instruções",
+        "props": {
+            "blockClass": "home-list-instructions",
+            "infoCards": [
+                {
+                    "title": "Instrução 1",
+                    "id": "home-instruction-1",
+                    "blockClass": "home-instructions",
+                    "htmlId": "home-instruction-1",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/home/home-icon-2.png",
+                    "mobileImageUrl": "assets/home/home-icon-2.png",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "### Cadastre-se",
+                    "subhead": "Para aprovar seu cadastro, envie sua documentação",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Instrução 2",
+                    "id": "home-instruction-2",
+                    "blockClass": "home-instructions",
+                    "htmlId": "home-instruction-2",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/home/home-icon-1.png",
+                    "mobileImageUrl": "assets/home/home-icon-1.png",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "### Aguarde a aprovação",
+                    "subhead": "Vamos analisar seu cadastro para efetuar a liberação.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Instrução 3",
+                    "id": "home-instruction-3",
+                    "blockClass": "home-instructions",
+                    "htmlId": "home-instruction-3",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/home/home-icon-3.png",
+                    "mobileImageUrl": "assets/home/home-icon-3.png",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "### Selecione os produtos",
+                    "subhead": "Escolha e adicione no carrinho os produtos desejados.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                },
+                {
+                    "title": "Instrução 4",
+                    "id": "home-instruction-4",
+                    "blockClass": "home-instructions",
+                    "htmlId": "home-instruction-4",
+                    "isFullModeStyle": false,
+                    "imageUrl": "assets/home/home-icon-4.png",
+                    "mobileImageUrl": "assets/home/home-icon-4.png",
+                    "textPosition": "left",
+                    "textAlignment": "center",
+                    "headline": "### Receba onde quiser!",
+                    "subhead": " Após a confirmação do pagamento, receba seu pedido onde escolher.",
+                    "textMode": "rich-text",
+                    "callToActionMode": "none"
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#home-list-instructions"
+        ]
+    },
+    "slider-layout#home-list-instructions": {
+        "title": "Slider da sessão de instruções",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": "home-list-instructions"
+        }
+    }
+}

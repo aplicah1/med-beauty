@@ -1,0 +1,35 @@
+{
+    "store.custom#the-brand": {
+        "path": "/a-marca"
+    },
+    "store.custom#privacy-policy": {
+        "path": "/politica-de-privacidade"
+    },
+    "store.custom#delivery-policy": {
+        "path": "/politica-de-entrega"
+    },
+    "store.custom#common-questions": {
+        "path": "/perguntas-frequentes"
+    },
+    "store.custom#exchange-and-return-policy": {
+        "path": "/trocas-e-devolucoes"
+    },
+    "store.custom#wishlist": {
+        "path": "/lista-de-desejos"
+    },
+    "store.custom#institucional": {
+        "path": "/garantia"
+    },
+    "store.custom#how-it-works": {
+        "path": "/como-funciona"
+    },
+    "store.custom#terms-and-conditions": {
+        "path": "/termos-e-condicoes"
+    },
+    "store.custom#cadastro": {
+        "path": "/cadastro"
+    },
+    "store.custom#frequent-doubts": {
+        "path": "/duvidas-frequentes"
+    }
+}

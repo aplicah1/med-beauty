@@ -1,0 +1,48 @@
+{
+  "store.product": {
+    "children": [
+      "responsive-layout.mobile#product-page-product-name",
+      "flex-layout.row#container-product-page",
+      "responsive-layout.mobile#wdt-product-techs-product",
+      "flex-layout.row#container-specifications"
+    ]
+  },
+  "responsive-layout.mobile#product-page-product-name": {
+    "children": [
+      "vtex.store-components:product-name#product"
+    ]
+  },
+  "responsive-layout.mobile#wdt-product-techs-product": {
+    "children": [
+    ]
+  },
+  "flex-layout.row#container-product-page": {
+    "props": {
+      "blockClass": "container-product-page",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "blockClass": "container-product-page-right-col",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#container-right-col"
+    ]
+  },  
+  "flex-layout.row#container-specifications": {
+    "children": [
+      "wdt-custom-product-specifications"
+    ],
+    "props": {
+      "blockClass": [
+        "container-specifications"
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#container-newsletter": {
+        "props": {
+            "blockClass": "container-newsletter"
+        },
+        "children": [
+            "flex-layout.col#container-newsletter"
+        ]
+    },
+    "flex-layout.col#container-newsletter": {
+        "children": [
+            "rich-text#home-title-newsletter",
+            "newsletter-form#default",
+            "rich-text#home-title-social-networks",
+            "wdt-custom-social-networks"
+        ]
+    },
+    "rich-text#home-title-newsletter": {
+        "title": "Titulo Newsletter",
+        "props": {
+            "blockClass": "home-title-newsletter",
+            "text": "## Cadastre-se \n\n Preencha seus dados para receber nossas novidades e promoções!"
+        }
+    },
+    "rich-text#home-title-social-networks": {
+        "title": "Titulo Redes Sociais",
+        "props": {
+            "blockClass": "home-title-social-networks",
+            "text": "## Siga-nos "
+        }
+    },
+    "newsletter-form#default": {
+        "title": "Newsletter",
+        "props": {
+            "blockClass": "default"
+        },
+        "children": [
+            "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-submit"
+        ]
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "Enviar"
+        }
+    },
+    "wdt-custom-social-networks": {
+        "title": "Redes sociais",
+        "props": {
+            "redes": [
+                {
+                    "showName": false,
+                    "link": "#",
+                    "iconUrl": "assets/icons/facebook.svg"
+                },
+                {
+                    "showName": false,
+                    "link": "#",
+                    "iconUrl": "assets/icons/instagram.svg"
+                },
+                {
+                    "showName": false,
+                    "link": "#",
+                    "iconUrl": "assets/icons/whatsapp.svg"
+                }
+            ]
+        }
+    }
+}

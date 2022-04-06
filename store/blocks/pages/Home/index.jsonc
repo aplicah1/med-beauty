@@ -1,0 +1,14 @@
+{
+    "store.home": {
+        "blocks": [
+            "wdt-custom-slider-default#home-page-1",
+            "flex-layout.row#container-ruler-home",
+            "flex-layout.row#home-section-0",
+            "flex-layout.row#home-shelf-highlight",
+            "flex-layout.row#home-container-shelf-1",
+            "flex-layout.row#home-container-shelf-2",
+            "flex-layout.row#home-container-shelf-3",
+            "flex-layout.row#container-newsletter"
+        ]
+    }
+}

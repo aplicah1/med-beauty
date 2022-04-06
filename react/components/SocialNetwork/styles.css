@@ -1,0 +1,32 @@
+.wdtSocialNetwork {
+	display: flex;
+	align-items: center;
+	width: auto !important;
+	justify-content: center;
+}
+.wdtSocialNetwork a {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	text-decoration: none;
+}
+.wdtSocialNetwork a:not(:last-child) {
+	margin-right: 40px;
+}
+.wdtSocialNetwork a img {
+	max-width: 45px;
+	max-height: 45px;
+}
+
+@media (max-width: 1023px) {
+	.wdtSocialNetwork a:not(:last-child) {
+		margin-right: 15px;
+	}
+	.wdtSocialNetwork a img {
+		max-width: 25px;
+		max-height: 25px;
+	}
+	.name {
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,117 @@
+{
+    "vtex.menu@2.x:menu#header-mobile": {
+        "title": "Itens de Menu Mobile",
+        "props": {
+            "blockClass": "header-mobile"
+        },
+        "children": [
+            "menu-item#item-1-mobile",
+            "menu-item#item-2-mobile",
+            "menu-item#item-3-mobile"
+        ]
+    },
+    "menu-item#item-1-mobile": {
+        "title": "Item 1 Menu Mobile",
+        "props": {
+            "id": "menu-item-item-1-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-mobile",
+            "itemProps": {
+                "type": "internal",
+                "href": "/i-Thread",
+                "noFollow": false,
+                "tagTitle": "i-Thread",
+                "text": "i-Thread"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#item-1-mobile-accordion"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#item-1-mobile-accordion": {
+        "title": "SubMenu",
+        "children": [
+            "vtex.menu@2.x:menu#item-1-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#item-1-mobile": {
+        "title": "SubMenu 1 Menu Mobile",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-header-mobile",
+            "items": []
+        }
+    },
+    // --
+    "menu-item#item-2-mobile": {
+        "title": "Item 2 Menu Mobile",
+        "props": {
+            "id": "menu-item-item-2-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-mobile",
+            "itemProps": {
+                "type": "internal",
+                "href": "/e.p.t.q.",
+                "noFollow": false,
+                "tagTitle": "e.p.t.q.",
+                "text": "e.p.t.q."
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#item-2-mobile-accordion"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#item-2-mobile-accordion": {
+        "title": "SubMenu",
+        "children": [
+            "vtex.menu@2.x:menu#item-2-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#item-2-mobile": {
+        "title": "SubMenu 2 Menu Mobile",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-header-mobile",
+            "items": []
+        }
+    },
+    // --
+    "menu-item#item-3-mobile": {
+        "title": "Item 3 Menu Mobile",
+        "props": {
+            "id": "menu-item-item-3-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "header-menu-mobile",
+            "itemProps": {
+                "type": "internal",
+                "href": "/Nano-Canula",
+                "noFollow": false,
+                "tagTitle": "Nano Cânula",
+                "text": "Nano Cânula"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#item-3-mobile-accordion"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#item-3-mobile-accordion": {
+        "title": "SubMenu",
+        "children": [
+            "vtex.menu@2.x:menu#item-3-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#item-3-mobile": {
+        "title": "SubMenu 3 Menu Mobile",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-header-mobile",
+            "items": []
+        }
+    }
+}

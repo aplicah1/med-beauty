@@ -1,0 +1,34 @@
+{
+    "store.custom#privacy-policy": {
+        "props": {
+            "blockClass": "container-privacy-policy"
+        },
+        "blocks": [
+            "info-card#privacy-policy",
+            "rich-text#privacy-policy"
+        ]
+    },
+    "info-card#privacy-policy": {
+        "title": "Banner",
+        "props": {
+            "id": "info-card-sobre-interna-banner-1",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://medbeauty.vtexassets.com/assets/vtex/assets-builder/medbeauty.medbeauty-store/0.0.5/home/home-1___4f6409ce02f46ef197ddebb48f07c330.jpg",
+            "headline": "# Politica de privacidade",
+            "subhead": "",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "blockClass": "banner-pag-institucional",
+            "textAlignment": "center",
+            "textMode": "rich-text"
+        }
+    },
+    "rich-text#privacy-policy": {
+        "title": "Texto",
+        "props": {
+            "blockClass": "text-pag-institucional",
+            "text": "## What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n## Where does it come from?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    }
+}

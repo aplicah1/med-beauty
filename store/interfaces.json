@@ -1,0 +1,34 @@
+{
+    "custom-search-bar": {
+        "component": "SearchBar"
+    },
+    "wdt-custom-slider-default": {
+        "component": "SliderDefault"
+    },
+    "notify-me": {
+        "component": "NotifyMe",
+        "composition": "children"
+    },
+    "wdt-custom-social-networks": {
+        "component": "SocialNetwork"
+    },
+    "wdt-custom-installments": {
+        "component": "ProductInstallments"
+    },
+    "wdt-condition-is-logged-in": {
+        "component": "WdtConditionIsLoggedIn"
+    },
+    "wdt-custom-filter": {
+        "component": "Filter",
+        "composition": "children"
+    },
+    "wdt-custom-shipping-product-page": {
+        "component": "ShippingProductPage"
+    },
+    "wdt-custom-product-description": {
+        "component": "ProductDescription"
+    },
+    "wdt-custom-product-specifications": {
+        "component": "ProductSpecifications"
+    }
+}

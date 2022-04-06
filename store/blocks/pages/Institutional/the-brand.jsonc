@@ -1,0 +1,139 @@
+{
+    "store.custom#the-brand": {
+        "blocks": [
+            "flex-layout.row#the-brand-banner",
+            "rich-text#title-the-brand",
+            "flex-layout.row#text-the-brand"
+        ]
+    },
+    "flex-layout.row#the-brand-banner":{
+        "props": {
+            "blockClass": "container-banner"
+        },
+        "children": [
+            "image#banner-the-brand-banner"
+        ]
+    },
+    "image#banner-the-brand-banner": {
+        "props": {
+            "src": "https://denon.vtexassets.com/arquivos/banner_.jpg",
+            "blockClass": "banner-primary"
+        }
+    },
+    "rich-text#title-the-brand": {
+        "props": {
+            "blockClass": ["title-the-brand"],
+            "text": "# A Marca"
+        }
+    },
+    "flex-layout.row#text-the-brand": {
+        "props": {
+            "blockClass": "container-text-the-brand",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#text-denon--the-brand-1",
+            "flex-layout.col#vinyl-disc",
+            "flex-layout.col#dolby-surround",
+            "flex-layout.col#denon"
+        ]
+    },
+    "rich-text#text-denon--the-brand-1":{
+        "props": {
+            "text": "Uma marca japonesa fundada em 1910, foi o primeiro e o mais antigo fabricante de eletrônica de áudio. O significado da palavra é: “Elétrico e som”. Hoje a Denon é a marca de receiver mais vendida em todo mundo e pertence a uma empresa americana chamada Sound United, que fica localizada no estado da Califórnia na cidade de Vista nos Estados Unidos.",
+            "blockClass": "text-denon--the-brand-1"
+        }
+    },
+    "flex-layout.col#vinyl-disc":{
+        "props":{
+            "blockClass": "vinyl-disc",
+            "colSizing": "auto"
+        },
+        "children":[
+            "flex-layout.col#img-vinyl-disc",
+            "rich-text#text-vinyl-disc"
+        ]
+    },
+    "flex-layout.col#img-vinyl-disc":{
+        "props":{
+            "blockClass": "img-vinyl-disc"
+        },
+        "children":[
+            "image#vinyl-disc"
+        ]
+    },
+    "image#vinyl-disc": {
+        "props": {
+            "src": "https://denon.vtexassets.com/arquivos/_vinyl-disc.jpg",
+            "blockClass": "img-vinyl-disc"
+        }
+    },
+    "rich-text#text-vinyl-disc":{
+        "props": {
+            "text": "## Primeiro Produto Denon\n\nNo ano de 2010 a marca completou seus 100 anos, se tornando uma empresa centenária que atravessou por diversas gerações sem deixar de evoluir com suas tecnologias de ponta. Em 1910 na sua fundação, a Denon fabricou o primeiro vinil de 78 RPM. Na década de 1950, vendeu os primeiros toca discos de vinil em 33RPM. Na década de 1960, vendeu os primeiros toca-fitas.",
+            "blockClass": "text-vinyl-disc"
+        }
+    },
+
+    "flex-layout.col#dolby-surround":{
+        "props":{
+            "blockClass": "vinyl-disc",
+            "colSizing": "auto"
+        },
+        "children":[
+            "flex-layout.col#img-dolby-surround",
+            "rich-text#text-dolby-surround"
+        ]
+    },
+    "flex-layout.col#img-dolby-surround":{
+        "props":{
+            "blockClass": "img-vinyl-disc"
+        },
+        "children":[
+            "image#dolby-surround"
+        ]
+    },
+    "image#dolby-surround": {
+        "props": {
+            "src": "https://denon.vtexassets.com/arquivos/shelf-highlight.jpg",
+            "blockClass": "img-vinyl-disc"
+        }
+    },
+    "rich-text#text-dolby-surround":{
+        "props": {
+            "text": "## Produção Histórica\n\nEm 1962 ela apresenta o cartucho phono DL103, o áudio mais longo do mundo produzido continuamente. Em 1969 produziu o primeiro áudio digital PCM, uma tecnologia de gravação inovadora na história. Em 1983 vendeu os primeiros CDs, e em seguida seu primeiro processador amplificador Dolby Surround integrado, ali começa a grande experiência de uma sala de cinema residencial.",
+            "blockClass": "text-vinyl-disc"
+        }
+    },
+
+    "flex-layout.col#denon":{
+        "props":{
+            "blockClass": "vinyl-disc",
+            "colSizing": "auto"
+        },
+        "children":[
+            "flex-layout.col#img-denon",
+            "rich-text#text-denon"
+        ]
+    },
+    "flex-layout.col#img-denon":{
+        "props":{
+            "blockClass": "img-vinyl-disc"
+        },
+        "children":[
+            "image#img-denon"
+        ]
+    },
+    "image#img-denon": {
+        "props": {
+            "src": "https://denon.vtexassets.com/arquivos/dj_.jpg",
+            "blockClass": "img-vinyl-disc"
+        }
+    },
+    "rich-text#text-denon":{
+        "props": {
+            "text": "## Tecnologias\n\nA Denon sempre acompanhou as principais tecnologias do mercado, e incorporando em sua linha de produtos.",
+            "blockClass": ["text-vinyl-disc", "text-denon-tec"]
+        }
+    }
+}

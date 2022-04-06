@@ -1,0 +1,214 @@
+{
+    "flex-layout.row#footer-2-desktop": {
+        "title": "Menu Rodapé Desktop",
+        "children": [
+            "flex-layout.col#atendimento",
+            "vtex.menu@2.x:menu#institucional",
+            "vtex.menu@2.x:menu#ajuda"
+        ],
+        "props": {
+            "blockClass": "menu-footer",
+            "paddingTop": 6,
+            "paddingBottom": 3,
+            "colSizing": "auto",
+            "colGap": 9
+        }
+    },
+    "vtex.menu@2.x:menu#institucional": {
+        "title": "Menu Institucional",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-footer",
+            "items": [
+                {
+                    "id": "menu-item-quem-somos",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/quem-somos",
+                        "noFollow": false,
+                        "tagTitle": "Quem Somos",
+                        "text": "Quem Somos"
+                    }
+                },
+                {
+                    "id": "menu-item-cadastro",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cadastro",
+                        "noFollow": false,
+                        "tagTitle": "Cadastro para Profissionais",
+                        "text": "Cadastro para Profissionais"
+                    }
+                },
+                {
+                    "id": "menu-item-como-funciona",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/como-funciona",
+                        "noFollow": false,
+                        "tagTitle": "Como funciona",
+                        "text": "Como funciona"
+                    }
+                },
+                {
+                    "id": "menu-item-contato",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/contato",
+                        "noFollow": false,
+                        "tagTitle": "Contato",
+                        "text": "Contato"
+                    }
+                }
+            ]
+        },
+        "children": [
+            "rich-text#title-footer-menu-institucional"
+        ]
+    },
+    "rich-text#title-footer-menu-institucional": {
+        "title": "Titulo Menu Institucional",
+        "props": {
+            "text": "Institucional",
+            "blockClass": "menu-footer"
+        }
+    },
+    "vtex.menu@2.x:menu#ajuda": {
+        "title": "Menu Ajuda Desktop",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-footer",
+            "items": [
+                {
+                    "id": "menu-item-duvidas-frequentes",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/duvidas-frequentes",
+                        "noFollow": false,
+                        "tagTitle": "Dúvidas Frequentes",
+                        "text": "Dúvidas Frequentes"
+                    }
+                },
+                {
+                    "id": "menu-item-politica-de-privacidade",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/politica-de-privacidade",
+                        "noFollow": false,
+                        "tagTitle": "Politica de Privacidade",
+                        "text": "Politica de Privacidade"
+                    }
+                },
+                {
+                    "id": "menu-item-termos-e-condicoes",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/termos-e-condicoes",
+                        "noFollow": false,
+                        "tagTitle": "Termos e Condições",
+                        "text": "Termos e Condições"
+                    }
+                }
+            ]
+        },
+        "children": [
+            "rich-text#title-footer-menu-ajuda"
+        ]
+    },
+    "rich-text#title-footer-menu-ajuda": {
+        "title": "Titulo Menu Ajuda",
+        "props": {
+            "text": "Ajuda",
+            "blockClass": "menu-footer"
+        }
+    },
+    "flex-layout.col#atendimento": {
+        "children": [
+            "rich-text#title-footer-menu-atendimento",
+            "flex-layout.row#footer-container-link-whatsapp",
+            "flex-layout.row#footer-container-link-email"
+        ]
+    },
+    "rich-text#title-footer-menu-atendimento": {
+        "title": "Titulo Menu atendimento",
+        "props": {
+            "text": "Atendimento",
+            "blockClass": ["menu-footer", "atendimento"]
+        }
+    },
+    "flex-layout.row#footer-container-link-whatsapp": {
+        "children": [
+            "link#footer-link-whatsapp",
+            "image#footer-icon-whatsapp"
+        ],
+        "props": {
+            "blockClass": "footer-container-link-cta",
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "colGap": 4
+        }
+    },
+    "link#footer-link-whatsapp": {
+        "title": "Link para whatsapp",
+        "props": {
+            "blockClass": "links-footer-cta",
+            "href": "tel:1193214-8448",
+            "label": "(11) 93214-8448"
+        }
+    },
+    "image#footer-icon-whatsapp": {
+        "props": {
+            "blockClass": "footer-icon",
+            "maxHeight": 24,
+            "src": "assets/icons/whatsapp-light.svg"
+        }
+    },
+    "flex-layout.row#footer-container-link-email": {
+        "children": [
+            "link#footer-link-email",
+            "image#footer-icon-email"
+        ],
+        "props": {
+            "blockClass": "footer-container-link-cta",
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "colGap": 4
+        }
+    },
+    "link#footer-link-email": {
+        "title": "Link para email",
+        "props": {
+            "blockClass": "links-footer-cta",
+            "href": "mailto:contato@medbeauty.com.br",
+            "label": "contato@medbeauty.com.br"
+        }
+    },
+    "image#footer-icon-email": {
+        "props": {
+            "blockClass": "footer-icon",
+            "maxHeight": 24,
+            "src": "assets/icons/email-light.svg"
+        }
+    }
+}

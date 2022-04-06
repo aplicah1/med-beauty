@@ -1,0 +1,86 @@
+{
+    "footer": {
+        "blocks": [
+            "footer-layout.desktop",
+            "footer-layout.mobile"
+        ]
+    },
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#container-background-footer",
+            "flex-layout.row#footer-3-desktop"
+        ]
+    },
+    "footer-layout.mobile": {
+        "children": [
+            "image#background-footer-image",
+            "flex-layout.row#footer-row-mobile-1",
+            "flex-layout.row#footer-row-mobile-2",
+            "flex-layout.row#footer-last-section-mobile"
+        ]
+    },
+    "flex-layout.row#footer-row-mobile-1": {
+        "children": [
+            "flex-layout.col#atendimento"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-row-mobile-1"
+            ]
+        }
+    },
+    "flex-layout.row#footer-row-mobile-2": {
+        "children": [
+            "vtex.menu@2.x:menu#institucional",
+            "vtex.menu@2.x:menu#ajuda"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-row-mobile-2"
+            ],
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.row#footer-last-section-mobile": {
+        "props": {
+            "blockClass": [
+                "footer-last-section-mobile"
+            ]
+        },
+        "children": [
+            "flex-layout.col#footer-last-section-mobile"
+        ]
+    },
+    "flex-layout.col#footer-last-section-mobile": {
+        "children": [
+            "image#credits",
+            "rich-text#footer",
+            "rich-text#dev-seals"
+        ]
+    },
+    "flex-layout.row#container-background-footer": {
+        "props": {
+            "blockClass": "container-background-footer"
+        },
+        "children": [
+            "flex-layout.col#container-background-footer"
+        ]
+    },
+    "flex-layout.col#container-background-footer": {
+        "props": {
+            "blockClass": "container-background-footer"
+        },
+        "children": [
+            "image#background-footer-image",
+            "flex-layout.row#footer-2-desktop"
+        ]
+    },
+    "image#background-footer-image": {
+        "props": {
+            "blockClass": [
+                "background-footer-image"
+            ],
+            "src": "assets/images/footer-bg.svg"
+        }
+    }
+}

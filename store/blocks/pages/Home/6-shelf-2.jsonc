@@ -1,0 +1,39 @@
+{
+    "flex-layout.row#home-container-shelf-2": {
+        "title": "Prateleira 2",
+        "props": {
+            "blockClass": "home-container-shelf"
+        },
+        "children": [
+            "flex-layout.col#home-container-shelf-2"
+        ]
+    },
+    "flex-layout.col#home-container-shelf-2": {
+        "children": [
+            "rich-text#title-shelf-2",
+            "list-context.product-list#home-2"
+        ]
+    },
+    "list-context.product-list#home-2": {
+        "title": "Prateleira 2",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#shelf-home"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 5,
+            "width": "100%",
+            "blockClass": "home-shelf"
+        }
+    },
+    "rich-text#title-shelf-2": {
+        "props": {
+            "blockClass": "title-shelf",
+            "font": "t-body",
+            "text": "## e.p.t.q ![e.p.t.q](assets/logos/eptq.svg)"
+        }
+    }
+}

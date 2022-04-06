@@ -1,0 +1,102 @@
+.containerSlider :global(.container) {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 100%;
+}
+.containerSlider .sliderLeftArrow {
+	left: 30px;
+}
+.containerSlider .sliderLeftArrow .caretIcon {
+	display: none;
+}
+.containerSlider .sliderLeftArrow::before {
+	content: '';
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='45.633' height='46.254' viewBox='0 0 45.633 46.254'%3E%3Cg id='Icon_feather-arrow-right' data-name='Icon feather-arrow-right' transform='translate(0.75 1.061)'%3E%3Cpath id='Caminho_123' data-name='Caminho 123' d='M51.633,18H7.5' transform='translate(-7.5 4.066)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cpath id='Caminho_124' data-name='Caminho 124' d='M40.066,7.5,18,29.566,40.066,51.633' transform='translate(-18 -7.5)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/g%3E%3C/svg%3E%0A")
+		no-repeat center;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+.containerSlider .sliderRightArrow {
+	right: 30px;
+}
+.containerSlider .sliderRightArrow .caretIcon {
+	display: none;
+}
+.containerSlider .sliderRightArrow::before {
+	content: '';
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='45.633' height='46.254' viewBox='0 0 45.633 46.254'%3E%3Cg id='Icon_feather-arrow-right' data-name='Icon feather-arrow-right' transform='translate(-6.75 -6.439)'%3E%3Cpath id='Caminho_123' data-name='Caminho 123' d='M7.5,18H51.633' transform='translate(0 11.566)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cpath id='Caminho_124' data-name='Caminho 124' d='M18,7.5,40.066,29.566,18,51.633' transform='translate(11.566)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/g%3E%3C/svg%3E%0A")
+		no-repeat center;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+.containerSlider:global(.submenu) :global(.container) {
+	padding: 0 15px;
+}
+.containerSlider:global(.submenu) :global(.containerText) h2 {
+	color: #6460aa;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 100;
+	font-family: 'Bree';
+}
+.containerSlider:global(.submenu) :global(.container) img {
+	width: 100%;
+	border: 2px solid #6460aa;
+	border-radius: 15px;
+}
+.containerSlider:global(.submenu) .sliderRightArrow,
+.containerSlider:global(.submenu) .sliderLeftArrow {
+	top: 50%;
+}
+.containerSlider:global(.submenu) .sliderRightArrow {
+	right: 0;
+}
+.containerSlider:global(.submenu) .sliderLeftArrow {
+	left: 0;
+}
+.containerSlider:global(.submenu) .sliderRightArrow::before,
+.containerSlider:global(.submenu) .sliderLeftArrow::before {
+	filter: invert(1);
+}
+/* / */
+.containerSlider:global(.home-page) :global(.container) {
+	position: relative;
+}
+.containerSlider:global(.home-page) :global(.containerText) {
+	position: absolute;
+	right: 40px;
+	top: 40px;
+	max-width: 500px;
+}
+.containerSlider:global(.home-page) :global(.containerText) h2 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 100;
+	font-family: 'Bree';
+}
+.containerSlider:global(.home-page) img {
+	width: 100%;
+}
+@media (max-width: 1024px) {
+	.containerSlider .sliderRightArrow {
+		right: 0px;
+	}
+	.containerSlider .sliderLeftArrow {
+		left: 0px;
+	}
+	.containerSlider:global(.submenu) :global(.containerText) h2 {
+		font-size: 1rem;
+	}
+	.containerSlider:global(.home-page) :global(.containerText) {
+		right: 20px;
+		top: 20px;
+		max-width: 50%;
+	}
+	.containerSlider:global(.home-page) :global(.containerText) h2 {
+		font-size: 1.3rem;
+	}
+}

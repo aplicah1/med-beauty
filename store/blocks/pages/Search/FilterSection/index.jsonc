@@ -1,0 +1,86 @@
+{
+    "flex-layout.row#filter-section": {
+        "props": {
+            "blockClass": "filter-section"
+        },
+        "children": [
+            "flex-layout.col#filter-section"
+        ]
+    },
+    "flex-layout.col#filter-section": {
+        "children": [
+            "drawer#search-filter",
+            "breadcrumb.search",
+            "order-by.v2"
+        ],
+        "props": {
+            "blockClass": "filter-section"
+        }
+    },
+    "drawer#search-filter": {
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "filter-section"
+        },
+        "blocks": [
+            "drawer-trigger#filter-section"
+        ]
+    },
+    "drawer-trigger#filter-section": {
+        "props": {
+            "blockClass": "filter-section"
+        },
+        "children": [
+            "rich-text#filter-section"
+        ]
+    },
+    "rich-text#filter-section": {
+        "props": {
+            "text": "Filtrar por",
+            "blockClass": "filter-section"
+        }
+    },
+    // Mobile
+    "flex-layout.row#filter-mobile": {
+        "props": {
+            "blockClass": "filter",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#filter-mobile",
+            "flex-layout.col#orderby"
+        ]
+    },
+    "flex-layout.col#filter-mobile": {
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "blockClass": "filterCol"
+        }
+    },
+    "filter-navigator.v3": {
+        "props": {
+            "blockClass": "horizontal",
+            "openFiltersMode": "one",
+            "initiallyCollapsed": true,
+            "closeOnOutsideClick": true
+        }
+    },
+    "flex-layout.col#orderby": {
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {
+            "blockClass": "orderByCol"
+        }
+    },
+    "breadcrumb": {
+        "props": {
+            "showOnMobile": true
+        }
+    }
+}
